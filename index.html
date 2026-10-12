@@ -13,17 +13,7 @@
             <li><a href="#jecrc">JECRC Foundation</a></li>
         </ul>
         <p> I am Having Fun with JS</p>
-        <script>
-            let a = parseInt(prompt("Enter the value of a: "));
-            let b = parseInt(prompt("Enter the value of b: "));
-
-            // let c = a + b;
-            // document.write("The sum of a and b is: " + c);
-            document.getElementById("first").textContent = a;
-            document.getElementById("second").textContent = b;
-            document.getElementById("output").textContent = "Sum: " + (a + b);
-            
-        </script>
+        
         <table>
             <thead>
                 <tr>
@@ -36,7 +26,7 @@
                
             </thead>
             <tbody>
- <tr>
+                <tr>
                     <td>1</td>
                     <td id="first"></td>
                     <td>+</td>
@@ -45,5 +35,17 @@
                 </tr>
             </tbody>        
         </table>
+
+        <script>
+            let a = parseInt(prompt("Enter the value of a: "));
+            let b = parseInt(prompt("Enter the value of b: "));
+
+            // let c = a + b;
+            // document.write("The sum of a and b is: " + c);
+            document.getElementById("first").textContent = a;
+            document.getElementById("second").textContent = b;
+            document.getElementById("output").textContent = "Sum: " + (a + b);
+            
+        </script>
     </body>
 </html>

@@ -3,12 +3,16 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #f4f6f9;
+    /* Changed from white/light grey to a premium, deep slate tone */
+    background-color: #0f172a; 
+    color: #f8fafc;
 }
 
 p {
     margin: 20px;
     font-size: 18px;
+    /* Ensured text stands out sharply against the dark background */
+    color: #e2e8f0; 
 }
 
 /* Navigation menu */
@@ -17,7 +21,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333333;
+    background-color: #1e293b; /* Tweaked for a cleaner contrast matching the dark mode */
 }
 
 ul li {
@@ -33,7 +37,7 @@ ul li a {
 }
 
 ul li a:hover {
-    background-color: #111111;
+    background-color: #334155; /* Enhanced hover tone */
 }
 
 /* Table styling */
@@ -41,40 +45,44 @@ table {
     width: 80%;
     margin: 30px auto;
     border-collapse: collapse;
-    background-color: white;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /* Transformed into a sleek dark-card element */
+    background-color: #1e293b; 
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
 }
 
 /* Table header */
 th {
-    background-color: #ff8800;
+    /* Upgraded to a striking electric neon orange to pop on the screen */
+    background-color: #ff6b00; 
     color: white;
     padding: 14px;
     text-align: center;
-    border: 1px solid #dddddd;
+    border: 1px solid #334155;
 }
 
 /* Table cells */
 td {
     padding: 12px;
     text-align: center;
-    border: 1px solid #dddddd;
+    border: 1px solid #334155; /* Subtle borders that don't clash with dark styling */
     font-size: 15px;
+    color: #cbd5e1;
 }
 
 /* Alternate row colors */
 tbody tr:nth-child(even) {
-    background-color: #f2f6fc;
+    background-color: #182232; /* Soft alternating tint for dark theme grids */
 }
 
 /* Hover effect */
 tbody tr:hover {
-    background-color: #dceeff;
+    background-color: #24334a; /* Interactive row focus color */
 }
 
 /* Highlight output column */
 .output {
-    color: #198754;
+    /* A bright neon green to draw immediate focus to your JS calculations */
+    color: #10b981; 
     font-weight: bold;
 }
 
