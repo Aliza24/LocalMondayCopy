@@ -3,14 +3,47 @@
         <title>1st Page for push</title>
         <link rel="stylesheet" href="style.css">
     </head>
-    <body>
-
+    <body> 
+        <ul>
+            <li>
+               <a href="#home"> Home</a>
+            </li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#jecrc">JECRC Foundation</a></li>
+        </ul>
+        <p> I am Having Fun with JS</p>
         <script>
             let a = parseInt(prompt("Enter the value of a: "));
             let b = parseInt(prompt("Enter the value of b: "));
 
-            let c = a + b;
-            document.write("The sum of a and b is: " + c);
+            // let c = a + b;
+            // document.write("The sum of a and b is: " + c);
+            document.getElementById("first").textContent = a;
+            document.getElementById("second").textContent = b;
+            document.getElementById("output").textContent = "Sum: " + (a + b);
+            
         </script>
+        <table>
+            <thead>
+                <tr>
+                 <td>S.No.</td>
+                 <td>First Input</td>
+                 <td>Operation</td>
+                 <td>Second Input</td>
+                 <td>Final Input</td>
+                </tr>
+               
+            </thead>
+            <tbody>
+ <tr>
+                    <td>1</td>
+                    <td id="first"></td>
+                    <td>+</td>
+                    <td id="second"></td>
+                    <td id="output"></td>
+                </tr>
+            </tbody>        
+        </table>
     </body>
 </html>
